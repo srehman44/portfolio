@@ -20,12 +20,10 @@ const Work = () => {
       <div className="Work1">
         <div className="Work__me">Work Portfolio</div>
         <div className="Work__details">
-          <h2>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-            unde saepe magni hic cupiditate eum aperiam sunt minus voluptate
-            expedita architecto quidem, quos itaque veritatis alias! Hic
-            voluptas quaerat molestias.
-          </h2>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+          unde saepe magni hic cupiditate eum aperiam sunt minus voluptate
+          expedita architecto quidem, quos itaque veritatis alias! Hic voluptas
+          quaerat molestias.
         </div>
       </div>
       <div className="Work_List">

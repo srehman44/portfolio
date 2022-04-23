@@ -9,7 +9,7 @@ import Work from "./Components/Work";
 function App() {
   return (
     // <div class="fullPage">
-    <>
+    <div className="full">
       <Navbar />
       <Landing id="landing" />
       <About id="about" />
@@ -25,7 +25,7 @@ function App() {
       >
         All Rights Reserved
       </footer>
-    </>
+    </div>
     // </div>
   );
 }
