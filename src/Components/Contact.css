@@ -1,0 +1,39 @@
+.about__test {
+  min-height: 600px;
+  background-color: #dff3fd;
+}
+
+.container {
+  margin-top: 50px;
+  width: 750px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+.about__test {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about__test {
+}
+
+.Contact_Des {
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.Contact__me h1 {
+  margin-top: 100px;
+  font-weight: bolder;
+}
+
+.Contact__me {
+  padding: 10px;
+}
+
+.btn {
+  background-color: #e4dffd;
+  border: 1px solid #e4dffd;
+}
