@@ -7,6 +7,8 @@ body {
 .landing {
   background-color: #fdf8df;
   min-height: 1000px;
+  width: 100vw;
+  max-width: 100vw;
   /* min-height: 800px; */
   /* border: 1px solid red; */
   display: flex;
