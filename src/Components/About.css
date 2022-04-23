@@ -70,3 +70,15 @@
 .About__details h2 {
   text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+  .About {
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  .About_List {
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
