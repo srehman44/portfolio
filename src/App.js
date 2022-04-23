@@ -21,7 +21,6 @@ function App() {
           textAlign: "center",
           backgroundColor: "grey",
           color: "white",
-          border: "1px solid red",
         }}
       >
         All Rights Reserved

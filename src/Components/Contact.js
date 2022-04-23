@@ -10,7 +10,7 @@ const Contact = () => {
           I am open to full time and freelance web develpoment opportunities.
           <br></br> Use the form to inquire about availability, or email me
           directly. <br></br>
-          <br></br>srehman44@gmail.com | 281-111-2222
+          <br></br>abc@gmail.com | 281-111-2222
         </div>
       </div>
       <div className="container">
