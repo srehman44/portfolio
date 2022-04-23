@@ -18,12 +18,15 @@ const Work = () => {
   return (
     <div className="Work" id="work">
       <div className="Work1">
-        <div className="Work__me">Work Portfolio</div>
+        {/* <div className="Work__me">Work Portfolio</div> */}
         <div className="Work__details">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-          unde saepe magni hic cupiditate eum aperiam sunt minus voluptate
-          expedita architecto quidem, quos itaque veritatis alias! Hic voluptas
-          quaerat molestias.
+          <h1>Work Portfolio</h1>
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+            unde saepe magni hic cupiditate eum aperiam sunt minus voluptate
+            expedita architecto quidem, quos itaque veritatis alias! Hic
+            voluptas quaerat molestias.
+          </h2>
         </div>
       </div>
       <div className="Work_List">

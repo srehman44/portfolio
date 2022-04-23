@@ -21,7 +21,8 @@
   justify-content: center;
   flex: 1;
   order: 1;
-  border: 1px solid red;
+
+  /* border: 1px solid red; */
 }
 
 .Work__me {
@@ -32,7 +33,7 @@
 }
 
 .Work__details {
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: center;
 }
 /* .Work_List {
@@ -51,7 +52,6 @@
 
   flex: 1;
   order: 2;
-  /* border: 1px solid red; */
 }
 
 .Work__Image {
@@ -76,6 +76,11 @@
   }
 }
 
-/* .Work__details h2 {
+.Work__details h1 {
   text-align: center;
-} */
+  margin-bottom: 10%;
+  font-weight: bolder;
+}
+.Work__details h2 {
+  text-align: center;
+}

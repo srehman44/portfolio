@@ -12,8 +12,9 @@ const About = () => {
   return (
     <div className="About" id="about">
       <div className="About1">
-        <div className="About__me">About Me</div>
+        {/* <div className="About__me">About Me</div> */}
         <div className="About__details">
+          <h1>About Me</h1>
           <h2>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
             unde saepe magni hic cupiditate eum aperiam sunt minus voluptate
@@ -23,7 +24,7 @@ const About = () => {
         </div>
       </div>
       <div className="About_List">
-        <div data-aos={"fade-left"} className="About__Image">
+        <div data-aos={"fade-down"} className="About__Image">
           <img src={work} className="App-logo" alt="logo" width="600" />
         </div>
       </div>
