@@ -1,0 +1,28 @@
+.sticky {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky {
+  display: grid;
+  grid-template-columns: 25% 2;
+  background-color: #fdf8df;
+}
+
+/* ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+} */
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}

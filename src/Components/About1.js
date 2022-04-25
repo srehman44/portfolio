@@ -16,7 +16,7 @@ const About = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="About" id="work">
+    <div className="About" id="about">
       <div className="About1">
         {/* <div className="About__me">About Portfolio</div> */}
         <div className="About__details">

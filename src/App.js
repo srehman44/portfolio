@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import Navbar1 from "./Components/Navbar1";
 
 import Landing from "./Components/Landing";
 import About from "./Components/About1";
@@ -18,7 +18,8 @@ function App() {
   return (
     // <div class="fullPage">
     <div className="full">
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbar1 />
       <Landing id="landing" />
       <About id="about" />
       <Skills id="skills" />

@@ -46,3 +46,8 @@
     order: 2;
   }
 }
+
+.Work__details h1 {
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
