@@ -20,7 +20,7 @@ const About = () => {
       <div className="About1">
         {/* <div className="About__me">About Portfolio</div> */}
         <div className="About__details">
-          <h1>About Me</h1>
+          <div className="About_heading">About Me</div>
           <h2>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
             unde saepe magni hic cupiditate eum aperiam sunt minus voluptate

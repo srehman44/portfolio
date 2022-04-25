@@ -16,6 +16,10 @@
   background-color: #a6a6a6;
 }
 
+.contact__info h1 {
+  font-weight: bolder;
+}
+
 .contact__info h1,
 h4 {
   text-align: center;

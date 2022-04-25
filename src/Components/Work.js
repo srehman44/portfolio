@@ -20,7 +20,7 @@ const Work = () => {
       <div className="Work1">
         {/* <div className="Work__me">Work Portfolio</div> */}
         <div className="Work__details">
-          <h1>Work Portfolio</h1>
+          <div className="Work_heading">Work Portfolio</div>
           <h2>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
             unde saepe magni hic cupiditate eum aperiam sunt minus voluptate
