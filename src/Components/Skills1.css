@@ -11,14 +11,15 @@
   gap: 1.5rem;
 
   grid-template-columns: auto minmax(1fr, 1fr);
-  height: 100vh;
+
+  padding: 10px;
 }
 
 .Skillz_About {
   background-color: #479147;
 
   text-align: center;
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
 .Skillz__Image img {
@@ -28,6 +29,8 @@
 @media screen and (min-width: 800px) {
   .Skillz {
     grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-template-rows: 800px;
   }
 
   .container__css,
@@ -46,7 +49,7 @@
   height: 3px;
   background-color: #04aa6d;
   position: relative;
-  animation: html_ani 4s;
+  animation: html_ani 6s;
 }
 .css {
   width: 80%;
@@ -60,14 +63,14 @@
   height: 3px;
   background-color: #f44336;
   position: relative;
-  animation: js_ani 4s;
+  animation: js_ani 6s;
 }
 .php {
   width: 65%;
   height: 3px;
   background: orange;
   position: relative;
-  animation: php_ani 4s;
+  animation: php_ani 6s;
 }
 
 .ReactJS {
@@ -75,7 +78,7 @@
   height: 3px;
   background: orange;
   position: relative;
-  animation: php_ani 4s;
+  animation: php_ani 6s;
 }
 
 .Python {
@@ -83,7 +86,7 @@
   height: 3px;
   background: #891094;
   position: relative;
-  animation: php_ani 4s;
+  animation: php_ani 6s;
 }
 
 .Flask {
@@ -91,7 +94,7 @@
   height: 3px;
   background: #5d9410;
   position: relative;
-  animation: php_ani 4s;
+  animation: php_ani 6s;
 }
 
 @keyframes php_ani {
@@ -107,7 +110,7 @@
     width: 0px;
   }
   to {
-    width: 85%;
+    width: 80%;
   }
 }
 @keyframes html_ani {
@@ -115,7 +118,7 @@
     width: 0px;
   }
   to {
-    width: 95%;
+    width: 90%;
   }
 }
 @keyframes js_ani {
@@ -123,7 +126,7 @@
     width: 0px;
   }
   to {
-    width: 90%;
+    width: 65%;
   }
 }
 

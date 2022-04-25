@@ -18,10 +18,10 @@ function App() {
   return (
     // <div class="fullPage">
     <div className="full">
-      {/* <Navbar /> */}
+      <Navbar />
       <Landing id="landing" />
       <About id="about" />
-      {/* <Skills id="skills" /> */}
+      <Skills id="skills" />
       <Work id="work" />
       <Contact id="contact" />
       {/* <footer

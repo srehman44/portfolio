@@ -9,9 +9,10 @@
 .Work {
   display: grid;
   gap: 1.5rem;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   grid-template-columns: auto minmax(1fr, 1fr);
-  height: 100vh;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .Work__details {
@@ -24,7 +25,7 @@
   background-color: #915a47;
 
   text-align: center;
-  border-radius: 30%;
+  border-radius: 10%;
   order: 1;
 }
 
@@ -35,6 +36,8 @@
 @media screen and (min-width: 800px) {
   .Work {
     grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-template-rows: 800px;
   }
 }
 
