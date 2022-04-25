@@ -1,4 +1,4 @@
-import "./Work.css";
+import "./Work1.css";
 
 // import work from "../work2.png";
 
@@ -31,7 +31,8 @@ const Work = () => {
       </div>
       <div className="Work_List">
         <div data-aos="zoom-in-down" className="Work__Image">
-          <img src={work} className="App-logo" alt="logo" width="600" />
+          {/* <div className="Work__Image"> */}
+          <img src={work} className="App-logo" alt="logo" />
         </div>
       </div>
     </div>

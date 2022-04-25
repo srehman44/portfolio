@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "./Skills1.css";
 
 import work from "../work2.png";
 
@@ -40,15 +40,8 @@ const Skills = () => {
   return (
     <div className="Skillz" id="skills">
       <div className="Skillz_About">
-        {/* <div>
-          {transitions.map(({ item, props, key }) => (
-            <animated.div key={key} style={{ ...props, position: "absolute" }}>
-              <p>{item.title}</p>
-            </animated.div>
-          ))}
-        </div> */}
         <div data-aos="fade-up" className="Skillz__Image">
-          <img src={work} className="App-logo" alt="logo" width="600" />
+          <img src={work} className="App-logo" alt="logo" />
         </div>
       </div>
       <div className="Skillz_List">

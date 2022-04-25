@@ -17,7 +17,7 @@ const Navbar = () => {
       id="navigation"
     >
       <div className="container-fluid">
-        <img src={brand} width="100" />
+        <img id="image" src={brand} width="100" />
         <button
           className="navbar-toggler"
           type="button"
@@ -48,12 +48,12 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#skills" id="test1">
+              <a className="nav-link active" href="#skills" id="skills">
                 My Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#work" id="test2">
+              <a className="nav-link active" href="#work" id="work">
                 Work
               </a>
             </li>

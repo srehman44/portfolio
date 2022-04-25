@@ -2,11 +2,19 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 
 import Landing from "./Components/Landing";
-import About from "./Components/About";
+import About from "./Components/About1";
 import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
 import Work from "./Components/Work";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useState, useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     // <div class="fullPage">
     <div className="full">
@@ -16,7 +24,7 @@ function App() {
       <Skills id="skills" />
       <Work id="work" />
       <Contact id="contact" />
-      <footer
+      {/* <footer
         style={{
           textAlign: "center",
           backgroundColor: "grey",
@@ -24,7 +32,7 @@ function App() {
         }}
       >
         All Rights Reserved
-      </footer>
+      </footer> */}
     </div>
     // </div>
   );
